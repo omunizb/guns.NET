@@ -7,8 +7,10 @@ namespace Ex6_Guns
     {
         static void Main(string[] args)
         {
-            var soldier = new Soldier(new Gatling());
-            Console.WriteLine(soldier.Shoot());
+            Gatling gatling = new Gatling();
+            Rifle rifle = new Rifle();
+            Soldier soldier = new Soldier(gatling, rifle);
+            Console.WriteLine(soldier.Shoot(rifle));
         }
     }
 }

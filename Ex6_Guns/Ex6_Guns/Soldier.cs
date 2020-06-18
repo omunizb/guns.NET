@@ -6,14 +6,18 @@ namespace Ex6_Guns
 {
     class Soldier
     {
-        protected IWeapon weapon;
+        protected IWeapon[] weapons;
 
-        public Soldier(IWeapon _weapon)
+        public Soldier(params IWeapon[] _weapons)
         {
-            this.weapon = _weapon;
+            weapons = _weapons;
         }
 
         public string Shoot()
+        {
+            return "unarmed!";
+        }
+        public string Shoot(IWeapon weapon)
         {
             return weapon.Shoot();
         }
