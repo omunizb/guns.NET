@@ -6,6 +6,7 @@ namespace Ex6_Guns
 {
     public interface IWeapon
     {
+        string Name { get; }
         string Shoot();
     }
 }

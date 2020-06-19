@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Ex6_Guns.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Ex6_Guns
 {
-    class Soldier
+    class Soldier : EquipWeapon
     {
         protected IWeapon[] weapons;
 
@@ -19,7 +20,13 @@ namespace Ex6_Guns
         }
         public string Shoot(IWeapon weapon)
         {
+            changeWeapon(weapon);
             return weapon.Shoot();
+        }
+
+        public override void changeWeapon(IWeapon weapon)
+        {
+            Console.WriteLine($"The soldier is now using the {weapon.Name}.");
         }
     }
 }

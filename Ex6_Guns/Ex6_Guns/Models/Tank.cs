@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ex6_Guns.Models
 {
-    class Tank
+    class Tank : EquipWeapon
     {
         protected IWeapon[] weapons;
 
@@ -19,7 +19,12 @@ namespace Ex6_Guns.Models
         }
         public string Shoot(IWeapon weapon)
         {
+            changeWeapon(weapon);
             return weapon.Shoot();
+        }
+        public override void changeWeapon(IWeapon weapon)
+        {
+            Console.WriteLine($"The tank is now using the {weapon.Name}.");
         }
     }
 }
