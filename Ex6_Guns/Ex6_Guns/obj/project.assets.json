@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oriol_000\\source\\repos\\Ex6_Guns\\Ex6_Guns\\Ex6_Guns.csproj",
+      "projectUniqueName": "C:\\Users\\oriol_000\\Documents\\IT_Academy\\guns.NET\\Ex6_Guns\\Ex6_Guns\\Ex6_Guns.csproj",
       "projectName": "Ex6_Guns",
-      "projectPath": "C:\\Users\\oriol_000\\source\\repos\\Ex6_Guns\\Ex6_Guns\\Ex6_Guns.csproj",
+      "projectPath": "C:\\Users\\oriol_000\\Documents\\IT_Academy\\guns.NET\\Ex6_Guns\\Ex6_Guns\\Ex6_Guns.csproj",
       "packagesPath": "C:\\Users\\oriol_000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oriol_000\\source\\repos\\Ex6_Guns\\Ex6_Guns\\obj\\",
+      "outputPath": "C:\\Users\\oriol_000\\Documents\\IT_Academy\\guns.NET\\Ex6_Guns\\Ex6_Guns\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oriol_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
